@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "model": {
+    "path": "fishid/dinov2_small_q.onnx",
+    "sha256": "3afdc8bc63b50558d6e5770f5b799bb82455c2311183a2de43803f343a29d917",
+    "bytes": 24451943
+  },
+  "photos": {
+    "dir": "photos",
+    "count": 732
+  }
+}
