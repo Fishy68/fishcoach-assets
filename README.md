@@ -9,7 +9,7 @@ Large files for the [FishCoach](https://github.com/Fishy68/fishy) Android app, k
 | `manifest.json` | Version, the model's SHA-256 and size, and the photo count | Integrity check before the app uses a download. |
 | `photo_credits.json`, `CREDITS.md` | Author, license and source of every photo | Attribution. The app shows the same credits in Settings. |
 
-The app reads these files from a fixed tag (`v1`), so changing `main` never breaks an installed version. To publish a new set, commit it and create the next tag (`v2`), then point the app's `ASSETS_URL` at it.
+The app reads these files at a fixed commit (its `ASSETS_URL` build setting ends in the commit hash), so later changes to `main` never break an installed version. To publish a new set, commit it here, then point `ASSETS_URL` in the app's build at the new commit and update the model hash there if the model changed.
 
 ## Licenses
 
