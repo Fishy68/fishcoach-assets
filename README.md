@@ -1,6 +1,6 @@
 # FishCoach assets
 
-Large files for the [FishCoach](https://github.com/Fishy68/fishy) Android app, kept out of the APK and downloaded by the app when needed.
+Large files for the FishCoach Android app, kept out of the APK and downloaded by the app when needed.
 
 | Path | What | Used for |
 |---|---|---|
